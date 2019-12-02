@@ -1,0 +1,99 @@
+#wrapper{ 
+    width: 890px; 
+    margin: auto;
+    box-shadow: 5px 5px 10px 10px black;
+    margin-top: 25px;
+    height: auto;
+    font-family: arial;
+    font-size: 20px;
+    background-color: rgba(238,238,238);
+    padding-bottom: 15px;
+}
+
+#textbox{
+    margin-left: 150px;
+}
+
+#ScoreText{
+    margin-left: 30px;
+}
+
+#list{
+    margin-left: 150px;
+    font-size: 16px ;
+}
+
+
+body{
+    background-color: rgba(32,49,131)
+}
+
+#logo{
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px
+}
+#Benchscore{
+    margin-left: 250px}
+
+#gpu{
+    margin-left: 365px}
+    
+#storage{
+    margin-left: 338.5px}
+
+#memory{
+    margin-left: 5px}
+
+#motherboard{
+    margin-left: 295px}
+
+#cpu{
+    margin-left: 366.5px}
+
+#score{
+    margin-left: 415px;
+}
+#newForm{
+    margin-left: 360px;
+    margin-top: -130px;
+}
+li{
+    margin-bottom: 10px;
+}
+#authentication{
+    margin: auto;
+    width: 400px;
+}
+#signInEmail{
+    margin-left:100px;
+    width:244px;
+}
+#signInPass{
+    margin-left:62px;
+    width:244px;
+}
+#RegEmail{
+    margin-left:100px;
+    width:244px;
+}
+#RegPass{
+    margin-left:62px;
+    width:244px;
+}
+#RegFirst{
+    width:244px;
+    margin-left: 52px;
+}
+#RegLast{
+    width:244px;
+    margin-left: 53px;
+}
+#register{
+    width:400px;
+}
+#signIn{
+    width:400px;
+}

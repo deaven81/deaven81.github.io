@@ -1,0 +1,60 @@
+<!Doctype html?>
+<html>
+	<head>
+		<title> Benchmarks </title>
+		<link rel="stylesheet" href="style.css">
+    </head>
+    <body >
+      
+      <div id = "wrapper">
+       <br>
+       <h1 style="text-align:center">Cinebench Benchmark Tracker </h1>
+       <a href="index.html"><img id=logo src = "images/logo.jpg" ></a>
+        <br>
+
+        <div id= "authentication">
+          Sign in below
+          <br>
+          <br>
+          Email <input type="text" id="signInEmail"/> <br>
+          Password <input type="text" id="signInPass"/>
+          <button id="signIn"> Sign In </button>
+          <br>
+          <br>
+          For your first time register below <br> <br>
+          Email <input type="text" id="RegEmail"/> <br>
+          Password <input type="text" id="RegPass"/><br>
+          First Name <input type="text" id="RegFirst"/><br>
+          Last Name <input type="text" id="RegLast"/>
+          <button id="register"> Register </button>
+        </div>
+
+        <div id = "textbox">
+          Add your PC specs along with your benchmark score below  
+          <br>
+          <br>
+          CPU <input type="text" id="cpu"/>
+          <br>
+          Motherboard <input type="text" id="motherboard"/>
+          <br>
+          Memory (for ex. "2x16GB ddr4 @ 3200mhz" ) <input type="text" id="memory"/>
+          <br>
+          Storage <input type="text" id="storage"/>
+          <br>
+          GPU <input type="text" id="gpu"/>
+          <br>
+          Benchmark Score <input type="text" id="Benchscore"/> <br>
+          <button id="score"> add your specs and score </button>
+        
+        <br>
+          <div id ="list">
+            <ol id = "history">
+
+            </ol>
+          </div>
+        </div>
+        
+          <script type="text/javascript" src="app.js"></script>
+      </div>
+        
+    </body>
